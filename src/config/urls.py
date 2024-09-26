@@ -8,6 +8,7 @@ api = NinjaAPI(
     title="Mentora backend", description="This is mentora's challenge API RESTFUL"
 )
 
+
 api.add_router("mentoring", mentoring_router)
 
 urlpatterns = [

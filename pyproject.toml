@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mentora-backend-challenge"
+name = "src"
 version = "0.1.0"
 description = ""
 authors = ["Pablo Pessanha <pablopessanh@gmail.com>"]
@@ -11,6 +11,15 @@ django = "^5.1.1"
 djangorestframework = "^3.15.2"
 django-ninja = "^1.3.0"
 
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-django = "^4.9.0"
+
+[tool.poetry.scripts]
+serve = "src.runserver:server"
 
 [build-system]
 requires = ["poetry-core"]
