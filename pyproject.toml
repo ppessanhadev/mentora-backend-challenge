@@ -5,6 +5,10 @@ description = ""
 authors = ["Pablo Pessanha <pablopessanh@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+serve = "src.scripts:server"
+test = "src.scripts:tests"
+
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^5.1.1"
@@ -18,8 +22,9 @@ optional = true
 pytest = "^8.3.3"
 pytest-django = "^4.9.0"
 
-[tool.poetry.scripts]
-serve = "src.runserver:server"
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "src.config.settings"
+python_files = ["test*.py", "*_test.py"]
 
 [build-system]
 requires = ["poetry-core"]
