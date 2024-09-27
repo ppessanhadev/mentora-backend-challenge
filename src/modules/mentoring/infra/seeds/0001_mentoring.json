@@ -3,27 +3,451 @@
     "model": "mentoring.mentoringmodel",
     "pk": 1,
     "fields": {
-      "title": "tituloss",
-      "description": "descricao qlqr aqui o",
-      "price": "25.99"
+      "title": "Shape perfeito com o método: L.U.A",
+      "description": "Quando você sai da dieta, bate aquele arrependimento? Não consegue ir na feira sem sair de lá com um pastel e um caldo de cana? Com o método Lows Under Abbs (L.U.A) vou te ensinar de maneira prática como não comer por uma semana para conseguir aqueles tão desejados 'quadrados' no abdômen. =D",
+      "price": "49.99"
     }
   },
   {
     "model": "mentoring.mentoringmodel",
     "pk": 2,
     "fields": {
-      "title": "Mais um titulo qqlqr",
-      "description": "Queria falar umas coisas mais diferentes por aqui",
-      "price": "49.99"
+      "title": "Estude programação por 3 meses e fique rico!",
+      "description": "Nessa mentoria vou te ensinar os métodos infalíveis de conseguir ficar rico com programação. Estude apenas por 3 meses!\r\nImagine conquistar aquela viagem dos sonhos estudando apenas 3 horas por dia, não perca essa oportunidade!",
+      "price": "25.99"
     }
   },
   {
     "model": "mentoring.mentoringmodel",
     "pk": 3,
     "fields": {
+      "title": "Já quis ser um verdadeiro Jedi?!",
+      "description": "Descubra o caminho dos Jedi! Aprenda a controlar a Força, cultivar disciplina e promover a paz no universo. Desperte o Jedi que existe em você! Que a Força esteja com você!",
+      "price": "6.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 4,
+    "fields": {
+      "title": "Leia livros 3x mais rápido",
+      "description": "Descubra o poder da leitura veloz! Aprenda a absorver informações rapidamente e aproveite cada página. Mergulhe em histórias fascinantes e expanda sua mente. Ler mais rápido é ler mais! Comece sua jornada literária hoje!",
+      "price": "18.89"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 5,
+    "fields": {
       "title": "Como melhorar seu foco",
-      "description": "Ja pensou em como se tornar produtivo em dias que as coisas não estão dando certo?\r\nEu tenho o método perfeito para isso, contratando meu serviço, não apenas isso mas muito mais possibilidades acontecerão com você!",
+      "description": "Já pensou em como se tornar produtivo em dias que as coisas não estão dando certo? Eu tenho o método perfeito para isso, contratando meu serviço, você abrirá muitas possibilidades!",
       "price": "109.90"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 6,
+    "fields": {
+      "title": "Te faço conquistar qualquer animal",
+      "description": "Faça dos pets verdadeiros companheiros! Com o adestramento certo, você ensina obediência, truques divertidos e melhora a convivência. Invista no bem-estar do seu amigo e descubra seu potencial!",
+      "price": "44.90"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 7,
+    "fields": {
+      "title": "Domine a arte da fotografia",
+      "description": "Aprenda a capturar momentos incríveis com técnicas de fotografia. Desde a composição até a edição, transforme suas fotos em verdadeiras obras de arte!",
+      "price": "35.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 8,
+    "fields": {
+      "title": "Gerenciamento de tempo eficiente",
+      "description": "Transforme sua rotina! Aprenda técnicas de gerenciamento de tempo para ser mais produtivo e alcançar seus objetivos sem estresse.",
+      "price": "29.99"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 9,
+    "fields": {
+      "title": "Atraia a abundância para sua vida",
+      "description": "Descubra como atrair prosperidade e abundância com técnicas de mentalização e pensamento positivo. Transforme sua realidade!",
+      "price": "50.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 10,
+    "fields": {
+      "title": "Desenvolva habilidades de liderança",
+      "description": "Torne-se um líder inspirador! Aprenda técnicas de comunicação, motivação e gestão de equipes para alcançar resultados extraordinários.",
+      "price": "65.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 11,
+    "fields": {
+      "title": "Inglês fluente em 6 meses",
+      "description": "Aprenda a falar inglês de forma rápida e prática com um método comprovado. Fale com confiança em viagens e negócios!",
+      "price": "75.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 12,
+    "fields": {
+      "title": "Vença a procrastinação",
+      "description": "Aprenda a superar a procrastinação e aumente sua produtividade. Dicas práticas e motivação para agir e conquistar seus objetivos!",
+      "price": "39.99"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 13,
+    "fields": {
+      "title": "Técnicas de meditação para iniciantes",
+      "description": "Descubra como a meditação pode transformar sua vida. Aprenda técnicas simples para encontrar paz interior e reduzir o estresse.",
+      "price": "15.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 14,
+    "fields": {
+      "title": "Nutrição e saúde em 30 dias",
+      "description": "Transforme sua alimentação com dicas práticas de nutrição. Melhore sua saúde e bem-estar em apenas 30 dias!",
+      "price": "45.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 15,
+    "fields": {
+      "title": "Curso de culinária rápida",
+      "description": "Aprenda a cozinhar pratos deliciosos e rápidos para o dia a dia. Surpreenda sua família e amigos com suas habilidades!",
+      "price": "20.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 16,
+    "fields": {
+      "title": "Autoconhecimento e desenvolvimento pessoal",
+      "description": "Descubra-se! Aprenda a entender suas emoções e melhorar sua autoestima. O caminho para uma vida plena começa aqui!",
+      "price": "22.50"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 17,
+    "fields": {
+      "title": "Marketing digital para iniciantes",
+      "description": "Aprenda os conceitos básicos de marketing digital e como aplicá-los para alavancar seu negócio online!",
+      "price": "55.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 18,
+    "fields": {
+      "title": "Aprimore suas habilidades de escrita",
+      "description": "Melhore sua escrita e comunicação. Dicas e exercícios práticos para se expressar com clareza e criatividade!",
+      "price": "30.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 19,
+    "fields": {
+      "title": "Superando medos e fobias",
+      "description": "Aprenda a enfrentar e superar seus medos com técnicas eficazes. Torne-se mais confiante e livre!",
+      "price": "40.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 20,
+    "fields": {
+      "title": "Empreendedorismo do zero",
+      "description": "Transforme suas ideias em realidade! Aprenda os passos essenciais para iniciar seu próprio negócio.",
+      "price": "90.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 21,
+    "fields": {
+      "title": "Fotografia de retrato",
+      "description": "Aprenda a capturar retratos incríveis. Dicas sobre iluminação, composição e edição para resultados impressionantes!",
+      "price": "37.50"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 22,
+    "fields": {
+      "title": "Crescimento pessoal contínuo",
+      "description": "Aprenda a se desenvolver constantemente. Dicas para ler mais, aprender novas habilidades e se reinventar!",
+      "price": "25.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 23,
+    "fields": {
+      "title": "Conquista da felicidade",
+      "description": "Descubra o que é a felicidade e como alcançá-la. Técnicas práticas para uma vida mais plena e feliz!",
+
+      "price": "33.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 24,
+    "fields": {
+      "title": "Criatividade sem limites",
+      "description": "Desperte sua criatividade! Dicas e exercícios para pensar fora da caixa e inovar em tudo o que faz.",
+      "price": "28.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 25,
+    "fields": {
+      "title": "Desenvolvimento de aplicativos",
+      "description": "Aprenda a criar aplicativos do zero! Dicas práticas para programar e lançar seu próprio app no mercado.",
+      "price": "75.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 26,
+    "fields": {
+      "title": "Histórias que vendem",
+      "description": "Aprenda a contar histórias que encantam e vendem! A arte de se conectar com seu público de forma impactante.",
+      "price": "60.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 27,
+    "fields": {
+      "title": "Criando uma marca pessoal",
+      "description": "Construa sua marca pessoal e destaque-se! Dicas para se posicionar no mercado e conquistar seu público.",
+      "price": "35.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 28,
+    "fields": {
+      "title": "Habilidades de negociação",
+      "description": "Aprenda a negociar como um profissional! Técnicas eficazes para conseguir o melhor em qualquer negociação.",
+      "price": "50.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 29,
+    "fields": {
+      "title": "Como ser mais carismático",
+      "description": "Desenvolva seu carisma e atraia as pessoas! Dicas práticas para melhorar suas relações pessoais e profissionais.",
+      "price": "22.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 30,
+    "fields": {
+      "title": "Introdução à filosofia",
+      "description": "Descubra o mundo da filosofia e como ele pode enriquecer sua vida. Questione, reflita e aprenda a pensar criticamente.",
+      "price": "18.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 31,
+    "fields": {
+      "title": "Comunicação assertiva",
+      "description": "Aprenda a se comunicar de forma clara e assertiva. Melhore suas relações e evite mal-entendidos!",
+      "price": "30.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 32,
+    "fields": {
+      "title": "Renda passiva com investimentos",
+      "description": "Descubra como gerar renda passiva através de investimentos. Aprenda estratégias para fazer seu dinheiro trabalhar por você!",
+      "price": "99.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 33,
+    "fields": {
+      "title": "Gestão de estresse",
+      "description": "Aprenda a gerenciar o estresse e viver com mais tranquilidade. Dicas e práticas para uma vida mais leve.",
+      "price": "27.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 34,
+    "fields": {
+      "title": "Planejamento financeiro pessoal",
+      "description": "Aprenda a gerenciar suas finanças e planejar seu futuro financeiro de forma eficaz.",
+      "price": "50.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 35,
+    "fields": {
+      "title": "Segredos da escrita criativa",
+      "description": "Desperte seu escritor interior! Técnicas e dicas para escrever de forma criativa e envolvente.",
+      "price": "40.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 36,
+    "fields": {
+      "title": "Como fazer networking efetivo",
+      "description": "Aprenda a construir e manter uma rede de contatos eficaz. Dicas para expandir suas oportunidades profissionais!",
+      "price": "20.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 37,
+    "fields": {
+      "title": "Mindfulness para iniciantes",
+      "description": "Descubra como a prática de mindfulness pode transformar sua vida. Aprenda a viver o presente com mais consciência.",
+      "price": "25.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 38,
+    "fields": {
+      "title": "Como escrever um livro",
+      "description": "Tenha seu livro publicado! Aprenda o passo a passo para transformar suas ideias em um livro de sucesso.",
+      "price": "60.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 39,
+    "fields": {
+      "title": "Arte da persuasão",
+      "description": "Aprenda a persuadir e influenciar pessoas de forma ética e eficaz. Dicas para melhorar suas habilidades de comunicação!",
+      "price": "45.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 40,
+    "fields": {
+      "title": "Criação de conteúdo digital",
+      "description": "Aprenda a criar conteúdo relevante e engajador para as redes sociais e blogs. Atraia e mantenha seu público!",
+      "price": "50.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 41,
+    "fields": {
+      "title": "Como se preparar para entrevistas",
+      "description": "Dicas essenciais para se destacar em entrevistas de emprego. Prepare-se e conquiste sua vaga dos sonhos!",
+      "price": "35.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 42,
+    "fields": {
+      "title": "Como criar um podcast",
+      "description": "Aprenda a produzir e lançar seu próprio podcast. Dicas de gravação, edição e promoção!",
+      "price": "30.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 43,
+    "fields": {
+      "title": "Estratégias de vendas",
+      "description": "Descubra técnicas comprovadas para aumentar suas vendas e conquistar mais clientes.",
+      "price": "70.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 44,
+    "fields": {
+      "title": "Criando um site do zero",
+      "description": "Aprenda a criar e gerenciar seu próprio site, mesmo sem experiência em programação!",
+      "price": "85.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 45,
+    "fields": {
+      "title": "Coaching de carreira",
+      "description": "Descubra como se destacar no mercado de trabalho e alcançar seus objetivos profissionais.",
+      "price": "100.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 46,
+    "fields": {
+      "title": "Produção de vídeo para redes sociais",
+      "description": "Aprenda a criar vídeos envolventes para as redes sociais. Aumente seu engajamento e alcance!",
+      "price": "55.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 47,
+    "fields": {
+      "title": "Como vencer a timidez",
+      "description": "Descubra estratégias para superar a timidez e se sentir mais confiante em qualquer situação social.",
+      "price": "40.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 48,
+    "fields": {
+      "title": "Desenvolvimento de inteligência emocional",
+      "description": "Aprenda a entender e gerenciar suas emoções. Dicas para melhorar suas relações e bem-estar!",
+      "price": "37.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 49,
+    "fields": {
+      "title": "Como fazer um currículo eficaz",
+      "description": "Aprenda a criar um currículo que se destaque e conquiste a atenção dos recrutadores.",
+      "price": "25.00"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 50,
+    "fields": {
+      "title": "Técnicas de vendas online",
+      "description": "Aprenda estratégias para vender online de forma eficaz",
+      "price": "47.50"
     }
   }
 ]

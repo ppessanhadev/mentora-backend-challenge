@@ -10,5 +10,6 @@ class MentoringModel(models.Model):
         return self.title
 
     class Meta:
+        db_table = "mentories"
         verbose_name = "Mentoring"
         verbose_name_plural = "Mentories"
