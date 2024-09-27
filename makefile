@@ -16,3 +16,6 @@ migration:
 
 generate-migrations:
 	poetry run src/manage.py makemigrations
+
+seed-mentoring:
+	poetry run src/manage.py loaddata src/modules/mentoring/infra/seeds/0001_mentoring.json
