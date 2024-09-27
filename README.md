@@ -17,14 +17,20 @@ Para rodar a aplicacão localmente é necessário ter o [poetry](https://python-
 
 Os comandos para rodar são:
 
+**Docker compose (Recomendado)**
+
+Para evitar configurações de ambiente, setups e criação de banco de dados, <strong>basta entrar na raiz e rodar os comandos</strong>:
+
+1. `cp .env.example .env`
+2. `docker-compose up -d`
+
 **Makefile**
 
-1. `make init`
-2. `make server`
+OBS: é necessário ter uma instancia postgres local e configurada para rodar de maneira individual
 
-**Docker compose**
-
-1. `poetry install`
-2. `poetry run src/manage.py runserver`
+1. Rode o comando `cp .env.example .env`
+2. Preecha o .env com as configurações do seu banco postgres
+3. Rode o comando `make init`
+4. Inicialize o server com o comando `make server`
 
 Um Swagger com as rotas disponiveis poderá ser visualizado na rota `http://127.0.0.1:8000/api/docs`
