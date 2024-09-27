@@ -1,0 +1,29 @@
+[
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 1,
+    "fields": {
+      "title": "tituloss",
+      "description": "descricao qlqr aqui o",
+      "price": "25.99"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 2,
+    "fields": {
+      "title": "Mais um titulo qqlqr",
+      "description": "Queria falar umas coisas mais diferentes por aqui",
+      "price": "49.99"
+    }
+  },
+  {
+    "model": "mentoring.mentoringmodel",
+    "pk": 3,
+    "fields": {
+      "title": "Como melhorar seu foco",
+      "description": "Ja pensou em como se tornar produtivo em dias que as coisas não estão dando certo?\r\nEu tenho o método perfeito para isso, contratando meu serviço, não apenas isso mas muito mais possibilidades acontecerão com você!",
+      "price": "109.90"
+    }
+  }
+]

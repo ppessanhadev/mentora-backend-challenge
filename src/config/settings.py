@@ -4,7 +4,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 SECRET_KEY = "django-insecure-6jno6o5&_i%wp5840+z()ty+sjq#k6%&hfenn9)^6b3pe$3ftz"
 ALLOWED_HOSTS = ["*"]
 
@@ -18,8 +18,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "django_seed",
     "rest_framework",
+    "src.modules.mentoring.apps.MentoringConfig",
 ]
+
+MIGRATION_MODULES = {
+    "mentoring": "modules.mentoring.infra.migrations",
+}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -58,7 +64,7 @@ WSGI_APPLICATION = "src.config.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "config" / "db.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 

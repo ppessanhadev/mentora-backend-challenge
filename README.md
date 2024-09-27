@@ -14,8 +14,3 @@ Os comandos para rodar são:
 2. `poetry run serve`
 
 Um Swagger com as rotas disponiveis poderá ser visualizado na rota `http://127.0.0.1:8000/api/docs`
-
-**Testes**
-
-1. `poetry install --with dev`
-2. `poetry run test`
