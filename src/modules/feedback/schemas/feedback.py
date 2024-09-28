@@ -1,9 +1,9 @@
-from ninja.schema import Schema
-from ..models.feedback import stars_choices
+from ninja import ModelSchema
+from ..models import FeedbackModel
 
 
-class FeedbackSchema(Schema):
-    id: int
-    name: str
-    description: str
-    stars: 1 | 2 | 3 | 4 | 5
+class FeedbackSchema(ModelSchema):
+    class Meta:
+        model = FeedbackModel
+        fields = "__all__"
+        exclude = ["mentoring"]

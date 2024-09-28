@@ -4,6 +4,7 @@ from ninja import NinjaAPI
 from ninja.throttling import AnonRateThrottle
 
 from src.modules.mentoring.handlers import router as mentoring_router
+from src.modules.feedback.handlers import router as feedback_router
 
 api = NinjaAPI(
     title="Mentora backend",
@@ -13,6 +14,7 @@ api = NinjaAPI(
 
 
 api.add_router("mentoring", mentoring_router)
+api.add_router("feedback", feedback_router)
 
 urlpatterns = [
     path("admin/", admin.site.urls),

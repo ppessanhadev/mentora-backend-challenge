@@ -1,1 +1,1 @@
-from .list_feedbacks_by_id import list_feedbacks_by_id
+from .list_feedbacks_by_id import list_feedbacks_by_id_use_case
