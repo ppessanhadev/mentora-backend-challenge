@@ -7,7 +7,7 @@ env = environ.Env()
 environ.Env.read_env(BASE_DIR.parent / ".env")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = env("DJANGO_DEBUG", None, False)
 SECRET_KEY = env("DJANGO_SECRET_KEY")
 ALLOWED_HOSTS = ["*"]
 
