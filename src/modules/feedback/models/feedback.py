@@ -16,7 +16,9 @@ class FeedbackModel(models.Model):
     message = models.TextField()
     stars = models.IntegerField("stars", choices=stars_choices)
     mentoring = models.ForeignKey(MentoringModel, on_delete=models.CASCADE)
-    created_at = models.DateTimeField("created_at", auto_created=True)
+    created_at = models.DateTimeField(
+        "created_at", auto_now_add=True, blank=True, null=True
+    )
 
     def __str__(self) -> str:
         return self.name
