@@ -8,7 +8,7 @@ environ.Env.read_env(BASE_DIR.parent / ".env")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-SECRET_KEY = "django-insecure-6jno6o5&_i%wp5840+z()ty+sjq#k6%&hfenn9)^6b3pe$3ftz"
+SECRET_KEY = env("DJANGO_SECRET_KEY")
 ALLOWED_HOSTS = ["*"]
 
 
@@ -23,10 +23,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "src.modules.mentoring.apps.MentoringConfig",
+    "src.modules.feedback.apps.FeedbackConfig",
 ]
 
 MIGRATION_MODULES = {
     "mentoring": "modules.mentoring.infra.migrations",
+    "feedback": "modules.feedback.infra.migrations",
 }
 
 MIDDLEWARE = [
@@ -99,7 +101,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "America/Sao_Paulo"
 
 USE_I18N = False
 
