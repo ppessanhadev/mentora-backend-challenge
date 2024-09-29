@@ -1,21 +1,46 @@
 ## Mentora backend challenge
 
-Essa aplicação tem como objetivo conter toda a regra de negocio, armazenamento de informações e gerenciamneto de uma aplicação centralizada para compra/venda de mentorias, no qual contém feedbacks personalizados.
+Essa aplicação tem como objetivo conter toda a regra de negocio, armazenamento de informações e gerenciamneto de uma aplicação centralizada para lista de mentorias, no qual contém feedbacks personalizados.
 
-#### Overview
+### Overview
 
-Para o desenvolvimento, utilizei algumas as seguintes ferramentas:
+Para o desenvolvimento, foram utilizada as seguintes ferramentas:
 
-- [Django]() como framework principal para o desenvolvimento da API
-- [Django-ninja]() para o desenvolvimento simplificado de rotas e schemas
+- [Django](https://www.djangoproject.com/) como framework principal para o desenvolvimento da API
+- [Django-ninja](https://django-ninja.dev/) para o desenvolvimento simplificado de rotas e schemas
+- [Poetry](https://python-poetry.org/docs/) para gereciamento de pacotes externos
+- [makefile](https://www.gnu.org/software/make/manual/make.html) para reduzir ações em comandos simplificados
+- [Docker](https://docs.docker.com/) + [docker-compose](https://docs.docker.com/compose/) para conteinarização da aplicacão
 
-**Como rodar localmente**
+A aplicação está deployada e funcionando no [render](https://render.com/), e as rotas com os parâmetros disponíveis podem ser visualizadas nesse link: https://mentora-backend-challenge.onrender.com/api/docs
+
+**OBS**: por ser free tier, a api "dorme" a cada 15 minutos de inatividade, então caso demorando um pouco basta aguardar.
+
+**Tabelas**
+
+As tabelas estão foram criadas da criadas no seguinte molde:
+
+_mentories (referente as mentorias)_
+| id | title | description | price |
+|:--:|:-------------------------:|:-----------------------------------------:|:-----:|
+| 27 | Criando uma marca pessoal | Construa sua marca pessoal e destaque-se! | 35.00 |
+| 28 | Habilidades de negociação | Aprenda a negociar como um profissional! | 50.00 |
+| | | | |
+
+_feedbacks (referente aos feedbacks ligado as mentorias)_
+| id | name | message | stars | mentoring_id |
+|:--:|:-----------------:|:-------------------:|:-----:|--------------|
+| 1 | João Paulo | Poderia ser melhor. | 3 | 1 |
+| 2 | Euclides de souza | Legal! | 4 | 1 |
+| 3 | Thais Carla | TOOOOOP | 5 | 1 |
+
+### Rodando a aplicação
+
+Como avisado foi avisado na seção de [overview](#overview) a aplicação está disponivel online e pode ser visualizada a partir desse link: https://mentora-backend-challenge.onrender.com/api/docs, entretando, caso haja interesse me rodar localmente, basta seguir a próximas orientações
 
 Para rodar a aplicacão localmente é necessário ter o [poetry](https://python-poetry.org/) com o python instalado em sua versão 3.12
 
-Os comandos para rodar são:
-
-**Docker compose (Recomendado)**
+**Rodando com docker compose (Recomendado)**
 
 Para evitar configurações de ambiente, setups e criação de banco de dados, <strong>basta entrar na raiz e rodar os comandos</strong>:
 
@@ -24,7 +49,7 @@ Para evitar configurações de ambiente, setups e criação de banco de dados, <
 
 **Makefile**
 
-OBS: é necessário ter uma instancia postgres local e configurada para rodar de maneira individual
+Para rodar com makefile é necessário ter uma instancia postgres local e configurada para rodar de maneira individual. Siga os próximos passos com as dados do banco em mãos:
 
 1. Rode o comando `cp .env.example .env`
 2. Preecha o .env com as configurações do seu banco postgres
